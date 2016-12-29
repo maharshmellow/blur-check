@@ -1,6 +1,6 @@
 import cv2
 
-imageName = "clouds.jpg"
+imageName = "blurry.jpg"
 # read the image using opencv
 image = cv2.imread(imageName)
 # convert the image to grayscale
