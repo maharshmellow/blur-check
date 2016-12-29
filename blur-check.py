@@ -1,8 +1,7 @@
 import cv2
 
-imageName = "blurry.jpg"
 # read the image using opencv
-image = cv2.imread(imageName)
+image = cv2.imread("sharp.jpg")
 # convert the image to grayscale
 grayImage = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
 # laplacian = second order derivative operator used to find edges
